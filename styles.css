@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: #0D0D0D;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+
+#main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0D0D;
+    width: 100%;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+#result-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+#user-form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.logo {
+    background-color: #0D0D0D;
+    fill: white;
+    width: 490px;
+}
+
+#button-register {
+    background-color: #D9D9D9;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 20px 20px;
+    width: 300px;
+
+}
+
+#button-register:hover {
+    background-color: #0069d9;
+    transition: 1s;
+}
+
+#div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#div-errorMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: red;
+}
+
+#div-successMsg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(139, 222, 44);
+}
+
+.hidden {
+    display: none !important;
+
+}
+
+#button-back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    position: fixed;
+    right: 0;
+    background-color: #0D0D0D;
+}
+
+.list-eachUser {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#user-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin-top: 100px;
+}
+
+#main-sub-div {
+    display: flex;
+}
+
+#result-div2 {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 100vh;
+    right: 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    position: fixed;
+}
+
+#div-count {
+    color: white;
+    background-color: white;
+    display: block;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    border-radius: 8px 0px 0px 0px;
+    z-index: 1;
+}
+
+#div-count p {
+    color: black;
+    font-weight: bold;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+    #result-div {
+        display: none !important;
+    }
+}
