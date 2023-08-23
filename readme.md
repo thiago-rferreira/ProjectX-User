@@ -62,4 +62,3 @@ Além das classes, existem várias funções auxiliares que realizam tarefas com
 
 Para executar este sistema, você só precisa de um navegador da web que suporte JavaScript.
 
-Esperamos que este sistema de cadastro de usuários seja útil para suas necessidades de gerenciamento de informações de clientes. Sinta-se à vontade para personalizá-lo e adaptá-lo às suas necessidades específicas. Se tiver alguma dúvida ou sugestão de melhoria, não hesite em entrar em contato.
